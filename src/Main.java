@@ -41,6 +41,23 @@ public class Main {
         System.out.println("Количсетво ляшушек, после деления на 3,5, равняется = " + frogDivision);
         System.out.println("Количсетво ляшушек, после прибавления, равняется = " + frogPlus);
 
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var weightBoxers = firstBoxer + secondBoxer;
+        System.out.println("Общая масса бойцов " + weightBoxers + "кг");
+        var differenceFirstBoxer = secondBoxer - firstBoxer;
+        var differenceSecondBoxer = firstBoxer - secondBoxer;
+        System.out.println("Разница первого боксера " + differenceSecondBoxer + " Разница второго боксера " + differenceFirstBoxer);
+        var massDifference =(firstBoxer-secondBoxer) % weightBoxers;
+        System.out.println("Разница между боксерами " + massDifference + " кг ");
+        var totalTime = 640;
+        var workingHours = 8;
+        var numberEmployees = totalTime / workingHours + 94;
+        System.out.println("Всего работников в комании " + numberEmployees + " человек ");
+        var distributionWorkers = totalTime / numberEmployees;
+        System.out.println("Если в компании работает " + numberEmployees  + " человек, то всего " + distributionWorkers + " часов работы может быть поделено между сотрудниками");
+
+
 
 
 
